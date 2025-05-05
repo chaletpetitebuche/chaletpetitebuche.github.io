@@ -24,6 +24,14 @@ const LanguageSelector = ({ location }) => {
     defaultLangKey
   );
 
+  // Function to handle language selection
+  const handleLanguageSelect = (selectedLangKey) => {
+    // Save the selected language to localStorage
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('preferredLanguage', selectedLangKey);
+    }
+  };
+
   return (
     <div className="dropdown dropdown-end">
       <div
@@ -69,6 +77,7 @@ const LanguageSelector = ({ location }) => {
               <Link
                 to={lang.link}
                 className={`${lang.selected ? "active" : ""}`}
+                onClick={() => handleLanguageSelect(lang.langKey)}
               >
                 {lang.langKey === "en" ? "English" : "Français"}
                 {lang.selected && (
