@@ -1,1 +1,208 @@
-Chalet La Petite Bûche
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La petite bûche – A Rustic Retreat</title>
+    <!-- Preconnect for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Google Font: Playfair Display -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="lang.js" defer></script>
+  </head>
+  <body class="bg-beige text-gray-800">
+    <!-- Hero Section -->
+    <section
+      class="relative w-full h-screen bg-cover bg-center"
+      style="background-image: url('./assets/IMG_5884.jpeg')"
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+      <!-- Text Content -->
+      <div
+        class="relative z-10 flex items-center justify-center h-full text-center text-white px-8"
+      >
+        <h1 class="text-4xl sm:text-6xl font-playfair font-bold lang-fr">
+          Un refuge rustique niché dans la nature
+        </h1>
+        <h1
+          class="text-4xl sm:text-6xl font-playfair font-bold lang-en"
+          style="display: none"
+        >
+          A rustic retreat nestled in nature’s tranquility
+        </h1>
+      </div>
+
+      <!-- Language Toggle Buttons -->
+      <div class="absolute top-4 right-4 z-50">
+        <button
+          class="bg-beige text-forest border-2 border-forest px-4 py-2 rounded-md font-semibold hover:bg-forest hover:text-white transition cursor-pointer lang-en"
+          onclick="setLanguage('fr')"
+        >
+          FR
+        </button>
+        <button
+          class="bg-beige text-forest border-2 border-forest px-4 py-2 rounded-md font-semibold hover:bg-forest hover:text-white transition cursor-pointer lang-fr"
+          onclick="setLanguage('en')"
+        >
+          EN
+        </button>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+      <!-- Welcome Section -->
+      <section class="py-8">
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-fr"
+        >
+          Bienvenue à « La petite bûche »
+        </h2>
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-en"
+          style="display: none"
+        >
+          Welcome to "La petite bûche"
+        </h2>
+        <p class="mt-4 text-lg lang-fr">
+          Découvrez un mélange parfait de confort moderne et de charme rustique.
+          Située au cœur des forêts paisibles du Québec, La petite bûche est une
+          escapade unique pour se détendre, travailler à distance, ou profiter
+          de la magie de l'hiver.
+        </p>
+        <p class="mt-4 text-lg lang-en" style="display: none">
+          Discover the perfect blend of modern comfort and rustic charm. Nestled
+          in the serene forests of Québec, La petite bûche offers a unique
+          getaway for relaxation, remote work, or experiencing the magic of
+          winter.
+        </p>
+      </section>
+
+      <!-- Existing Features Section -->
+      <section class="py-8">
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-fr"
+        >
+          Caractéristiques principales
+        </h2>
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-en"
+          style="display: none"
+        >
+          Key Features
+        </h2>
+        <ul class="mt-4 space-y-4 list-disc list-inside lang-fr">
+          <li>Internet fibre rapide de 200 Mb/s – idéal pour le télétravail</li>
+          <li>Cheminée chaleureuse pour des soirées confortables</li>
+          <li>Trois chambres douillettes et une cuisine entièrement équipée</li>
+          <li>Terrasse privée avec vue imprenable sur la forêt</li>
+        </ul>
+        <ul
+          class="mt-4 space-y-4 list-disc list-inside lang-en"
+          style="display: none"
+        >
+          <li>Fast 200 Mb/s fiber internet – perfect for remote work</li>
+          <li>Cozy fireplace for relaxing evenings</li>
+          <li>Three comfortable bedrooms and a fully equipped kitchen</li>
+          <li>Private deck with stunning forest views</li>
+        </ul>
+      </section>
+
+      <!-- New Outdoor Amenities Section -->
+      <section class="py-8">
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-fr"
+        >
+          Équipement extérieur
+        </h2>
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-en"
+          style="display: none"
+        >
+          Outdoor Amenities
+        </h2>
+        <ul class="mt-4 space-y-2 list-disc list-inside">
+          <li lang="fr">Accès à l'eau</li>
+          <li lang="en" style="display: none">Water access</li>
+          <li lang="fr">Barbecue</li>
+          <li lang="en" style="display: none">Barbecue</li>
+          <li lang="fr">Feu extérieur</li>
+          <li lang="en" style="display: none">Outdoor fire</li>
+          <li lang="fr">Hamac</li>
+          <li lang="en" style="display: none">Hammock</li>
+          <li lang="fr">Jacuzzi / Spa</li>
+          <li lang="en" style="display: none">Jacuzzi / Spa</li>
+          <li lang="fr">Jardin ou cour arrière</li>
+          <li lang="en" style="display: none">Garden or backyard</li>
+          <li lang="fr">Meubles de patio</li>
+          <li lang="en" style="display: none">Patio furniture</li>
+          <li lang="fr">Patio ou balcon</li>
+          <li lang="en" style="display: none">Patio or balcony</li>
+        </ul>
+      </section>
+
+      <!-- New Sports and Adventures Section -->
+      <section class="py-8">
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-fr"
+        >
+          Sports et aventures à proximité
+        </h2>
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-en"
+          style="display: none"
+        >
+          Nearby Sports and Adventures
+        </h2>
+        <ul class="mt-4 space-y-2 list-disc list-inside">
+          <li lang="fr">ATV trail</li>
+          <li lang="en" style="display: none">ATV trail</li>
+          <li lang="fr">Bateau</li>
+          <li lang="en" style="display: none">Boating</li>
+          <li lang="fr">Course</li>
+          <li lang="en" style="display: none">Running</li>
+          <!-- Add all requested items similarly -->
+        </ul>
+      </section>
+
+      <!-- New General Equipment Section -->
+      <section class="py-8">
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-fr"
+        >
+          Équipement général
+        </h2>
+        <h2
+          class="text-3xl font-playfair text-wood border-l-4 border-forest pl-4 lang-en"
+          style="display: none"
+        >
+          General Equipment
+        </h2>
+        <ul class="mt-4 space-y-2 list-disc list-inside">
+          <li lang="fr">Chauffage</li>
+          <li lang="en" style="display: none">Heating</li>
+          <li lang="fr">Cintres dans les placards</li>
+          <li lang="en" style="display: none">Hangers in closets</li>
+          <!-- Add all requested items similarly -->
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-wood text-white text-center py-4">
+      <p class="lang-fr">
+        &copy; 2025 « La petite bûche ». Tous droits réservés.
+      </p>
+      <p class="lang-en" style="display: none">
+        &copy; 2025 "La petite bûche". All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

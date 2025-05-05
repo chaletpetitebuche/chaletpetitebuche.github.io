@@ -1,0 +1,88 @@
+{
+  "site": {
+    "title": "Micro-Chalet Forestier",
+    "description": "Un micro-chalet confortable niché dans la forêt, parfait pour votre prochaine escapade."
+  },
+  "nav": {
+    "home": "Accueil",
+    "guests": "Information aux Invités",
+    "book": "Réserver"
+  },
+  "hero": {
+    "title": "Évadez-vous dans la Nature",
+    "subtitle": "Vivez la tranquillité dans notre chalet forestier paisible",
+    "cta": "Réservez Votre Séjour"
+  },
+  "about": {
+    "title": "Notre Chalet",
+    "description": "Niché dans la beauté sereine de la forêt, notre micro-chalet offre un mélange parfait de charme rustique et de confort moderne. Déconnectez-vous de l'agitation et reconnectez-vous avec la nature dans cet espace judicieusement conçu."
+  },
+  "amenities": {
+    "title": "Commodités du Chalet",
+    "subtitle": "Tout ce dont vous avez besoin pour un séjour confortable",
+    "wifi": "WiFi haute vitesse",
+    "kitchen": "Cuisine entièrement équipée",
+    "heating": "Chauffage efficace",
+    "bathroom": "Salle de bain moderne",
+    "porch": "Terrasse privée",
+    "firepit": "Foyer extérieur"
+  },
+  "activities": {
+    "title": "Activités",
+    "subtitle": "Explorez les environs",
+    "hiking": {
+      "title": "Sentiers de Randonnée",
+      "description": "Plusieurs sentiers de randonnée pittoresques à quelques pas de votre porte"
+    },
+    "fishing": {
+      "title": "Pêche",
+      "description": "Un lac serein à seulement 15 minutes offre d'excellentes opportunités de pêche"
+    },
+    "wildlife": {
+      "title": "Observation de la Faune",
+      "description": "Observez la faune locale dans son habitat naturel"
+    }
+  },
+  "location": {
+    "title": "Emplacement",
+    "description": "Situé à seulement 2 heures de route de la ville, notre chalet est assez proche pour une escapade de weekend mais semble à des mondes de la vie urbaine."
+  },
+  "guests": {
+    "title": "Informations pour les Invités",
+    "welcome": "Bienvenue dans votre retraite forestière !",
+    "intro": "Nous sommes ravis de vous accueillir dans notre chalet. Voici tout ce que vous devez savoir pour rendre votre séjour confortable et agréable.",
+    "checkin": {
+      "title": "Arrivée & Départ",
+      "info": "Arrivée: 15h00 | Départ: 11h00",
+      "process": "Le chalet dispose d'un système d'entrée sans clé. Votre code unique vous sera envoyé avant votre arrivée."
+    },
+    "amenities": {
+      "title": "Commodités du Chalet",
+      "description": "Notre chalet est équipé de tout ce dont vous avez besoin pour un séjour confortable."
+    },
+    "rules": {
+      "title": "Règles de la Maison",
+      "item1": "Interdit de fumer à l'intérieur du chalet",
+      "item2": "Les animaux sont les bienvenus avec approbation préalable",
+      "item3": "Veuillez respecter les heures de tranquillité de 22h à 8h"
+    },
+    "emergency": {
+      "title": "Informations d'Urgence",
+      "contact": "En cas d'urgence, appelez le 911. Pour les problèmes liés au chalet, contactez-nous au 555-123-4567."
+    },
+    "local": {
+      "title": "Recommandations Locales",
+      "description": "Découvrez ces endroits locaux pour améliorer votre séjour."
+    }
+  },
+  "footer": {
+    "description": "Une retraite forestière paisible pour les amoureux de la nature",
+    "contact": "Contact",
+    "email": "Email",
+    "follow": "Suivez-nous",
+    "rights": "Tous Droits Réservés"
+  },
+  "language": {
+    "switch": "English"
+  }
+}
