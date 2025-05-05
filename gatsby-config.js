@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Chalet Petite Bûche`,
+    title: `Chalet La Petite Bûche`,
     siteUrl: `https://chaletpetitebuche.github.io`,
     description: `A cozy micro-cabin retreat in the heart of the forest.`,
     author: `@chaletpetitebuche`,
@@ -36,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Chalet Petite Bûche`,
+        name: `Chalet La Petite Bûche`,
         short_name: `Chalet PB`,
         start_url: `/`,
         background_color: `#f5f5f4`,

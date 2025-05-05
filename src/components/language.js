@@ -41,13 +41,15 @@ export function getLanguageInfo(location, langs, defaultLangKey) {
 export const translations = {
   en: {
     site: {
-      title: "Chalet Petite Bûche",
+      title: "Chalet La Petite Bûche",
       description: "A cozy micro-cabin retreat in the heart of the forest.",
     },
     nav: {
       home: "Home",
       guests: "Guest Information",
       book: "Book Now",
+      theme: "Theme",
+      language: "Language",
     },
     hero: {
       title: "Escape to Nature",
@@ -58,7 +60,7 @@ export const translations = {
     about: {
       title: "Our Cabin",
       description:
-        "Chalet Petite Bûche is a charming micro-cabin offering an authentic retreat experience. Built with sustainable materials and powered by solar energy, our cabin provides the perfect balance of rustic charm and modern comfort.",
+        "Chalet La Petite Bûche is a charming micro-cabin offering an authentic retreat experience. Built with sustainable materials and powered by solar energy, our cabin provides the perfect balance of rustic charm and modern comfort.",
     },
     amenities: {
       title: "Amenities",
@@ -96,7 +98,7 @@ export const translations = {
     },
     guests: {
       title: "Guest Information",
-      welcome: "Welcome to Chalet Petite Bûche!",
+      welcome: "Welcome to La Petite Bûche!",
       intro:
         "We're delighted you've chosen our cabin for your getaway. Here you'll find all the information you need for a comfortable and enjoyable stay.",
       checkin: {
@@ -136,7 +138,7 @@ export const translations = {
   },
   fr: {
     site: {
-      title: "Chalet Petite Bûche",
+      title: "Chalet La Petite Bûche",
       description:
         "Une retraite chaleureuse dans un micro-chalet au cœur de la forêt.",
     },
@@ -144,6 +146,8 @@ export const translations = {
       home: "Accueil",
       guests: "Information",
       book: "Réserver",
+      theme: "Thème",
+      language: "Langue",
     },
     hero: {
       title: "Évadez-vous dans la Nature",
@@ -154,7 +158,7 @@ export const translations = {
     about: {
       title: "Notre Chalet",
       description:
-        "Le Chalet Petite Bûche est un charmant micro-chalet offrant une expérience de retraite authentique. Construit avec des matériaux durables et alimenté par l'énergie solaire, notre chalet offre l'équilibre parfait entre charme rustique et confort moderne.",
+        "Le Chalet La Petite Bûche est un charmant micro-chalet offrant une expérience de retraite authentique. Construit avec des matériaux durables et alimenté par l'énergie solaire, notre chalet offre l'équilibre parfait entre charme rustique et confort moderne.",
     },
     amenities: {
       title: "Commodités",
@@ -192,7 +196,7 @@ export const translations = {
     },
     guests: {
       title: "Information pour les Invités",
-      welcome: "Bienvenue au Chalet Petite Bûche!",
+      welcome: "Bienvenue au Chalet La Petite Bûche!",
       intro:
         "Nous sommes ravis que vous ayez choisi notre chalet pour votre escapade. Vous trouverez ici toutes les informations nécessaires pour un séjour confortable et agréable.",
       checkin: {

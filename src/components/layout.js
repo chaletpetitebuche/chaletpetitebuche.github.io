@@ -52,6 +52,7 @@ const Layout = ({ children, pageTitle, location }) => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
+                    aria-hidden="true"
                   >
                     <path
                       strokeLinecap="round"
@@ -60,14 +61,16 @@ const Layout = ({ children, pageTitle, location }) => {
                       d="M4 6h16M4 12h8m-8 6h16"
                     />
                   </svg>
+                  <span className="sr-only">Menu</span>
                 </label>
                 <ul
                   tabIndex={0}
-                  className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                  className="menu dropdown-content mt-3 z-[1] p-3 shadow bg-base-100 rounded-box w-52"
                 >
                   <li>
                     <Link
                       to={langKey === defaultLangKey ? "/" : `/${langKey}/`}
+                      className="py-3 text-base"
                     >
                       {t.nav.home}
                     </Link>
@@ -79,9 +82,17 @@ const Layout = ({ children, pageTitle, location }) => {
                           ? "/guests/"
                           : `/${langKey}/guests/`
                       }
+                      className="py-3 text-base"
                     >
                       {t.nav.guests}
                     </Link>
+                  </li>
+                  {/* Mobile-only theme and language controls */}
+                  <li className="lg:hidden mt-3 border-t pt-3">
+                    <div className="flex items-center justify-between">
+                      <ThemeToggle />
+                      <LanguageSelector location={location} />
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -95,7 +106,10 @@ const Layout = ({ children, pageTitle, location }) => {
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">
                 <li>
-                  <Link to={langKey === defaultLangKey ? "/" : `/${langKey}/`}>
+                  <Link
+                    to={langKey === defaultLangKey ? "/" : `/${langKey}/`}
+                    className="py-2 px-4 text-base"
+                  >
                     {t.nav.home}
                   </Link>
                 </li>
@@ -106,6 +120,7 @@ const Layout = ({ children, pageTitle, location }) => {
                         ? "/guests/"
                         : `/${langKey}/guests/`
                     }
+                    className="py-2 px-4 text-base"
                   >
                     {t.nav.guests}
                   </Link>
@@ -113,8 +128,15 @@ const Layout = ({ children, pageTitle, location }) => {
               </ul>
             </div>
             <div className="navbar-end">
-              <ThemeToggle />
-              <LanguageSelector location={location} />
+              {/* Language selector - visible only on desktop */}
+              <div className="hidden lg:block">
+                <LanguageSelector location={location} />
+              </div>
+
+              {/* Desktop-only theme control */}
+              <div className="hidden lg:block ml-2">
+                <ThemeToggle />
+              </div>
               <a
                 href="https://airbnb.com"
                 target="_blank"
