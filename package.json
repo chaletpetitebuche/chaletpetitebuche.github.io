@@ -6,11 +6,11 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build && cp CNAME public/",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "predeploy": "gh-pages-clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && cp CNAME public/ && gh-pages -d public"
   },
   "keywords": [
     "cabin",
@@ -30,6 +30,7 @@
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-react-helmet": "^6.14.0",
     "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-plugin-static-folders": "^1.0.1",
     "gatsby-source-filesystem": "^5.12.1",
     "gatsby-transformer-sharp": "^5.12.3",
     "postcss": "^8.5.1",
