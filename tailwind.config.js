@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        headers: ['"Playfair Display"', 'serif'],
+        headers: ['"Playfair Display"', "serif"],
       },
       colors: {
         forest: {
