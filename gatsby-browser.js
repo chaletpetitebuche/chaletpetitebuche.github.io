@@ -1,3 +1,6 @@
+// Import Google Font - Playfair Display
+import "@fontsource/playfair-display/400.css"; // Regular
+import "@fontsource/playfair-display/700.css"; // Bold
 import "./src/styles/global.css";
 
 // Browser language detection for Gatsby

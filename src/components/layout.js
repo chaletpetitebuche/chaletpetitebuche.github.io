@@ -98,7 +98,7 @@ const Layout = ({ children, pageTitle, location }) => {
               </div>
               <Link
                 to={langKey === defaultLangKey ? "/" : `/${langKey}/`}
-                className="text-xl font-bold text-primary"
+                className="text-xl font-bold text-primary font-headers"
               >
                 {t.site.title}
               </Link>

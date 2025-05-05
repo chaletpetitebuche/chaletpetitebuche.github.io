@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        headers: ['"Playfair Display"', 'serif'],
+      },
       colors: {
         forest: {
           primary: "#3f6212", // Forest green
