@@ -152,7 +152,7 @@ export const translations = {
     hero: {
       title: "Évadez-vous dans la Nature",
       subtitle:
-        "Découvrez la sérénité dans notre confortable micro-chalet niché dans la forêt.",
+        "Découvrez la sérénité dans notre douillet micro-chalet niché dans la forêt.",
       cta: "Réservez Votre Séjour",
     },
     about: {
