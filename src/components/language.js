@@ -60,16 +60,16 @@ export const translations = {
     about: {
       title: "Our Cabin",
       description:
-        "Chalet La Petite Bûche is a charming micro-cabin offering an authentic retreat experience. Built with sustainable materials and powered by solar energy, our cabin provides the perfect balance of rustic charm and modern comfort.",
+        "Chalet La Petite Bûche is a charming micro-cabin offering an authentic retreat experience. Built with sustainable materials and comfortable year-round, our cabin provides the perfect balance of rustic charm and modern comfort.",
     },
     amenities: {
       title: "Amenities",
       subtitle: "Everything you need for a comfortable stay.",
-      wifi: "Free WiFi",
-      heating: "Heating",
-      kitchen: "Kitchenette",
+      wifi: "High Speed ​​Fiber Internet",
+      heating: "Heating and air conditioning",
+      kitchen: "Fully equiped kitchen",
       bathroom: "Full Bathroom",
-      porch: "Private Porch",
+      porch: "Private Porch with Spa",
       firepit: "Fire Pit",
     },
     activities: {
@@ -78,23 +78,23 @@ export const translations = {
       hiking: {
         title: "Hiking Trails",
         description:
-          "Miles of beautiful hiking trails just steps from your door.",
+          "Kilometers of beautiful hiking trails just steps from your door.",
       },
       fishing: {
         title: "Fishing",
         description:
-          "Try your luck at the nearby lake, stocked with trout and bass.",
+          "Try your luck at the village lake, stocked with trout.",
       },
       wildlife: {
         title: "Wildlife Viewing",
         description:
-          "Spot deer, rabbits, and various bird species around the property.",
+          "Spot deer, chipmunks, and various bird species around the property.",
       },
     },
     location: {
       title: "Location",
       description:
-        "Nestled in a peaceful forest, yet just a 15-minute drive from town with restaurants, shops, and amenities.",
+        "Nestled in a peaceful forest, a few minutes drive from the village where you will find a micro-brewery with restaurant, a snack bar, a hunting and fishing and outdoor supplies store, a grocery store, a pharmacy and a few other amenities.",
     },
     guests: {
       title: "Guest Information",
