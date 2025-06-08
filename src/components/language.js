@@ -164,11 +164,11 @@ export const translations = {
       title: "Commodités",
       subtitle: "Tout ce dont vous avez besoin pour un séjour confortable.",
       wifi: "Internet Fibre haute vitesse",
-      heating: "Chauffage et climatisation par une thermopompe",
-      kitchen: "Cuisine entièrement équipée avec réfrigérateur, cuisinière et micro-ondes",
-      bathroom: "Salle de Bain Complète avec douche et bidet",
-      porch: "Terrasse Privée avec Spa, BBQ et mobilier de jardin",
-      firepit: "Foyer Extérieur",
+      heating: "Chauffage et climatisation ",
+      kitchen: "Cuisine entièrement équipée ",
+      bathroom: "Salle de Bain complète",
+      porch: "Terrasse privée avec Spa",
+      firepit: "Foyer extérieur",
     },
     activities: {
       title: "Activités à Proximité",
@@ -186,13 +186,13 @@ export const translations = {
       wildlife: {
         title: "Observation de la Faune",
         description:
-          "Repérez des cerfs, des lapins et diverses espèces d'oiseaux autour de la propriété.",
+          "Repérez des cerfs, des suisses et diverses espèces d'oiseaux autour de la propriété.",
       },
     },
     location: {
       title: "Emplacement",
       description:
-        "Niché dans une forêt paisible, à quelques minutes en voiture du village où vous retrouverez un restaurant, une boutique, une épicerie et quelques autres commodités.",
+        "Niché dans une forêt paisible, à quelques minutes en voiture du village où vous retrouverez une micro-brasserie avec restaurant, un casse-croûte, une boutique d'articles de chasse et pêche et de plein-air, une épicerie, une pharmacie et quelques autres commodités.",
     },
     guests: {
       title: "Information pour les Invités",
