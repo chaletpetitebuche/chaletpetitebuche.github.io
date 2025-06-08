@@ -158,16 +158,16 @@ export const translations = {
     about: {
       title: "Notre Chalet",
       description:
-        "Le Chalet La Petite Bûche est un charmant micro-chalet offrant une expérience de retraite authentique. Construit avec des matériaux durables et alimenté par l'énergie solaire, notre chalet offre l'équilibre parfait entre charme rustique et confort moderne.",
+        "Le Chalet La Petite Bûche est un charmant micro-chalet offrant une expérience de relaxation en nature. Construit avec des matériaux durables et confortable toute l'année, notre chalet offre l'équilibre parfait entre charme rustique et confort moderne.",
     },
     amenities: {
       title: "Commodités",
       subtitle: "Tout ce dont vous avez besoin pour un séjour confortable.",
-      wifi: "WiFi Gratuit",
-      heating: "Chauffage",
-      kitchen: "Kitchenette",
-      bathroom: "Salle de Bain Complète",
-      porch: "Porche Privé",
+      wifi: "Internet Fibre haute vitesse",
+      heating: "Chauffage et climatisation par une thermopompe",
+      kitchen: "Cuisine entièrement équipée avec réfrigérateur, cuisinière et micro-ondes",
+      bathroom: "Salle de Bain Complète avec douche et bidet",
+      porch: "Terrasse Privée avec Spa, BBQ et mobilier de jardin",
       firepit: "Foyer Extérieur",
     },
     activities: {
@@ -181,7 +181,7 @@ export const translations = {
       fishing: {
         title: "Pêche",
         description:
-          "Tentez votre chance au lac voisin, peuplé de truites et d'achigans.",
+          "Tentez votre chance au lac du village, ensemensé de truites.",
       },
       wildlife: {
         title: "Observation de la Faune",
@@ -192,7 +192,7 @@ export const translations = {
     location: {
       title: "Emplacement",
       description:
-        "Niché dans une forêt paisible, mais à seulement 15 minutes en voiture de la ville avec ses restaurants, boutiques et commodités.",
+        "Niché dans une forêt paisible, à quelques minutes en voiture du village où vous retrouverez un restaurant, une boutique, une épicerie et quelques autres commodités.",
     },
     guests: {
       title: "Information pour les Invités",
