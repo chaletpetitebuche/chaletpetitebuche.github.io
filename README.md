@@ -4,7 +4,6 @@ A bilingual (English/French) Gatsby website for a cabin rental in the forest. Th
 
 ## Features
 
-- Fully bilingual site using react-intl
 - Responsive design with Tailwind CSS and DaisyUI
 - Full viewport hero image on the homepage
 - Dedicated guest information page
@@ -14,7 +13,6 @@ A bilingual (English/French) Gatsby website for a cabin rental in the forest. Th
 
 - Gatsby v5
 - React
-- React-intl for internationalization
 - Tailwind CSS for styling
 - DaisyUI for UI components
 - GitHub Pages for deployment
