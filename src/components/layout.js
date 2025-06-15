@@ -79,8 +79,8 @@ const Layout = ({ children, pageTitle, location }) => {
                     <Link
                       to={
                         langKey === defaultLangKey
-                          ? "/guests/"
-                          : `/${langKey}/guests/`
+                          ? "/info/"
+                          : `/${langKey}/info/`
                       }
                       className="py-3 text-base"
                     >
@@ -103,7 +103,7 @@ const Layout = ({ children, pageTitle, location }) => {
                 {t.site.title}
               </Link>
             </div>
-            <div className="navbar-center hidden lg:flex">
+            {/* <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">
                 <li>
                   <Link
@@ -117,8 +117,8 @@ const Layout = ({ children, pageTitle, location }) => {
                   <Link
                     to={
                       langKey === defaultLangKey
-                        ? "/guests/"
-                        : `/${langKey}/guests/`
+                        ? "/info/"
+                        : `/${langKey}/info/`
                     }
                     className="py-2 px-4 text-base"
                   >
@@ -126,7 +126,7 @@ const Layout = ({ children, pageTitle, location }) => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className="navbar-end">
               {/* Language selector - visible only on desktop */}
               <div className="hidden lg:block">
@@ -138,7 +138,7 @@ const Layout = ({ children, pageTitle, location }) => {
                 <ThemeToggle />
               </div>
               <a
-                href="https://airbnb.com"
+                href="https://airbnb.ca/rooms/1413810727910339261"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary ml-2"
@@ -165,7 +165,7 @@ const Layout = ({ children, pageTitle, location }) => {
             </div>
             <div>
               <h3 className="text-lg font-bold mb-4">{t.footer.follow}</h3>
-              <div className="flex space-x-4">
+              <div className="flex flex-col">
                 <a
                   href="https://www.instagram.com/chaletpetitebuche/"
                   target="_blank"
@@ -174,14 +174,7 @@ const Layout = ({ children, pageTitle, location }) => {
                 >
                   Instagram
                 </a>
-                <a
-                  href="https://airbnb.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-accent"
-                >
-                  Airbnb
-                </a>
+                <span>{t.footer.registration}</span>
               </div>
             </div>
           </div>

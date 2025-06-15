@@ -27,7 +27,7 @@ const HomePage = ({ pageContext, location }) => {
             </h1>
             <p className="text-xl md:text-2xl mb-8">{t.hero.subtitle}</p>
             <a
-              href="https://airbnb.com"
+              href="https://airbnb.ca/rooms/1413810727910339261https://airbnb.com"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary btn-lg"
@@ -243,7 +243,15 @@ const HomePage = ({ pageContext, location }) => {
             </div>
             <div className="md:w-1/2">
               <div className="w-full h-64 bg-gray-300 rounded-lg shadow-xl flex items-center justify-center">
-                <p className="text-gray-600">Map Location</p>
+                <iframe
+                  width="100%"
+                  height="256"
+                  className="rounded-lg shadow-xl"
+                  style={{ border: 0 }}
+                  load="lazy"
+                  allowfullscreen
+                  src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ9cc4XwgVxkwRO-Q3veEKkj0&key=AIzaSyCyuaT_TN_EAoIX1WTWDlUl_IOTEcMzl9I"
+                ></iframe>
               </div>
             </div>
           </div>

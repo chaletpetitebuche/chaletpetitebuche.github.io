@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build && cp CNAME public/",
     "serve": "gatsby serve",

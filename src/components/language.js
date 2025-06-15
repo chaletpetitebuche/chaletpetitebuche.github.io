@@ -82,8 +82,7 @@ export const translations = {
       },
       fishing: {
         title: "Fishing",
-        description:
-          "Try your luck at the village lake, stocked with trout.",
+        description: "Try your luck at the village lake, stocked with trout.",
       },
       wildlife: {
         title: "Wildlife Viewing",
@@ -134,6 +133,7 @@ export const translations = {
       email: "Email",
       follow: "Follow Us",
       rights: "All rights reserved.",
+      registration: "Quebec Registration Number: 308255",
     },
   },
   fr: {
@@ -234,6 +234,7 @@ export const translations = {
       email: "Courriel",
       follow: "Suivez-nous",
       rights: "Tous droits réservés.",
+      registration: "No. enregistrement Québec: 308255",
     },
   },
 };
