@@ -3,8 +3,10 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import { translations } from "../components/language";
 
-const HomePage = ({ pageContext, location }) => {
-  const { langKey = "en" } = pageContext;
+// This is the default homepage (French)
+const IndexPage = ({ location }) => {
+  // French is now the default language
+  const langKey = "fr";
   const t = translations[langKey];
 
   return (
@@ -27,7 +29,7 @@ const HomePage = ({ pageContext, location }) => {
             </h1>
             <p className="text-xl md:text-2xl mb-8">{t.hero.subtitle}</p>
             <a
-              href="https://airbnb.ca/rooms/1413810727910339261https://airbnb.com"
+              href="https://fr.airbnb.ca/rooms/1413810727910339261"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary btn-lg"
@@ -249,7 +251,8 @@ const HomePage = ({ pageContext, location }) => {
                   className="rounded-lg shadow-xl"
                   style={{ border: 0 }}
                   load="lazy"
-                  allowfullscreen
+                  allowFullScreen
+                  title="Emplacement du Chalet La Petite Bûche"
                   src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ9cc4XwgVxkwRO-Q3veEKkj0&key=AIzaSyCyuaT_TN_EAoIX1WTWDlUl_IOTEcMzl9I"
                 ></iframe>
               </div>
@@ -261,4 +264,4 @@ const HomePage = ({ pageContext, location }) => {
   );
 };
 
-export default HomePage;
+export default IndexPage;

@@ -4,12 +4,12 @@
 export function getLanguageInfo(location, langs, defaultLangKey) {
   const { pathname } = location;
 
-  // Default language (English)
+  // Default language (French)
   let langKey = defaultLangKey;
 
-  // Detect if we're on a French page
-  if (pathname.startsWith("/fr") || pathname.includes(".fr.")) {
-    langKey = "fr";
+  // Detect if we're on an English page
+  if (pathname.startsWith("/en") || pathname.includes(".en.")) {
+    langKey = "en";
   }
 
   // Create menu options for language selection
@@ -19,15 +19,15 @@ export function getLanguageInfo(location, langs, defaultLangKey) {
     // Generate the equivalent link in the other language
     let link;
     if (lang === defaultLangKey) {
-      // For default language (English), remove '/fr' from path
-      link = pathname.replace(/^\/fr/, "");
+      // For default language (French), remove '/en' from path
+      link = pathname.replace(/^\/en/, "");
       if (link === "") link = "/";
     } else {
-      // For French, add '/fr' to path if not already present
-      if (pathname.startsWith("/fr")) {
+      // For English, add '/en' to path if not already present
+      if (pathname.startsWith("/en")) {
         link = pathname;
       } else {
-        link = pathname === "/" ? "/fr/" : `/fr${pathname}`;
+        link = pathname === "/" ? "/en/" : `/en${pathname}`;
       }
     }
 

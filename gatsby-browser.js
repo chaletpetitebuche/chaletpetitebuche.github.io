@@ -9,7 +9,10 @@ export const onClientEntry = () => {
   if (typeof window === "undefined" || typeof navigator === "undefined") return;
 
   // Run on the homepage or info page
-  if (window.location.pathname === "/" || window.location.pathname === "/info/") {
+  if (
+    window.location.pathname === "/" ||
+    window.location.pathname === "/info/"
+  ) {
     // Check localStorage first - only proceed with detection if no valid preference exists
     const savedPreference = localStorage.getItem("preferredLanguage");
 
@@ -19,10 +22,10 @@ export const onClientEntry = () => {
       (savedPreference === "fr" || savedPreference === "en")
     ) {
       // Redirect to the appropriate language version if needed
-      if (savedPreference === "fr") {
+      if (savedPreference === "en") {
         const currentPath = window.location.pathname;
-        const frPath = currentPath === "/" ? "/fr/" : `/fr${currentPath}`;
-        window.location.replace(frPath);
+        const enPath = currentPath === "/" ? "/en/" : `/en${currentPath}`;
+        window.location.replace(enPath);
       }
       return;
     }
@@ -38,20 +41,20 @@ export const onClientEntry = () => {
 
     // Determine the language based on the match (default to 'fr' if no match)
     const preferredLang = preferred
-      ? preferred.toLowerCase().startsWith("fr")
-        ? "fr"
-        : "en"
+      ? preferred.toLowerCase().startsWith("en")
+        ? "en"
+        : "fr"
       : "fr";
 
     // Save the preference
     localStorage.setItem("preferredLanguage", preferredLang);
 
     // Redirect to the appropriate language version if needed
-    if (preferredLang === "fr") {
+    if (preferredLang === "en") {
       // Keep the same path structure but add the language prefix
       const currentPath = window.location.pathname;
-      const frPath = currentPath === "/" ? "/fr/" : `/fr${currentPath}`;
-      window.location.replace(frPath);
+      const enPath = currentPath === "/" ? "/en/" : `/en${currentPath}`;
+      window.location.replace(enPath);
     }
   }
 };

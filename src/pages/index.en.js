@@ -3,10 +3,9 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import { translations } from "../components/language";
 
-// This is the French version of the homepage
-const IndexFrPage = ({ location }) => {
-  // Hard-code the language key to French for this page
-  const langKey = "fr";
+const HomePage = ({ pageContext = {}, location }) => {
+  // Always set langKey to "en" for this file, regardless of pageContext
+  const langKey = "en";
   const t = translations[langKey];
 
   return (
@@ -21,6 +20,8 @@ const IndexFrPage = ({ location }) => {
           className="h-full"
           objectPosition="center"
           objectFit="cover"
+          formats={["auto", "webp", "avif"]}
+          quality={95}
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <div className="text-center text-white px-4 max-w-4xl">
@@ -29,7 +30,7 @@ const IndexFrPage = ({ location }) => {
             </h1>
             <p className="text-xl md:text-2xl mb-8">{t.hero.subtitle}</p>
             <a
-              href="https://fr.airbnb.ca/rooms/1413810727910339261"
+              href="https://airbnb.ca/rooms/1413810727910339261"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary btn-lg"
@@ -49,6 +50,8 @@ const IndexFrPage = ({ location }) => {
                 src="../images/chalet-printemps.jpeg"
                 alt="Cabin interior"
                 className="rounded-lg shadow-xl"
+                formats={["auto", "webp", "avif"]}
+                quality={95}
               />
             </div>
             <div className="md:w-1/2">
@@ -251,7 +254,8 @@ const IndexFrPage = ({ location }) => {
                   className="rounded-lg shadow-xl"
                   style={{ border: 0 }}
                   load="lazy"
-                  allowfullscreen
+                  allowFullScreen
+                  title="Location of Chalet La Petite Bûche"
                   src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ9cc4XwgVxkwRO-Q3veEKkj0&key=AIzaSyCyuaT_TN_EAoIX1WTWDlUl_IOTEcMzl9I"
                 ></iframe>
               </div>
@@ -263,4 +267,4 @@ const IndexFrPage = ({ location }) => {
   );
 };
 
-export default IndexFrPage;
+export default HomePage;

@@ -2,10 +2,9 @@ import React from "react";
 import Layout from "../components/layout";
 import { translations } from "../components/language";
 
-// This is the French version of the guests page
-const GuestsFrPage = ({ location }) => {
-  // Hard-code the language key to French for this page
-  const langKey = "fr";
+const GuestsPage = ({ pageContext = {}, location }) => {
+  // Always set langKey to "en" for this file, regardless of pageContext
+  const langKey = "en";
   const t = translations[langKey];
 
   return (
@@ -183,19 +182,19 @@ const GuestsFrPage = ({ location }) => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="card bg-base-200">
                   <div className="card-body">
-                    <h3 className="card-title">Restaurant Local</h3>
+                    <h3 className="card-title">Local Restaurant</h3>
                     <p>
-                      Un restaurant chaleureux à seulement 10 minutes, servant
-                      des repas de la ferme à la table.
+                      A cozy dining spot just 10 minutes away, serving
+                      farm-to-table meals.
                     </p>
                   </div>
                 </div>
                 <div className="card bg-base-200">
                   <div className="card-body">
-                    <h3 className="card-title">Épicerie</h3>
+                    <h3 className="card-title">Grocery Store</h3>
                     <p>
-                      Une petite épicerie bien approvisionnée à environ 15
-                      minutes du chalet.
+                      A small but well-stocked grocery store about 15 minutes
+                      from the cabin.
                     </p>
                   </div>
                 </div>
@@ -208,4 +207,4 @@ const GuestsFrPage = ({ location }) => {
   );
 };
 
-export default GuestsFrPage;
+export default GuestsPage;

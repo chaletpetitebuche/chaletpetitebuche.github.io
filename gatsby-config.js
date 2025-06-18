@@ -9,7 +9,7 @@ module.exports = {
     author: `@chaletpetitebuche`,
     languages: {
       langs: ["en", "fr"],
-      defaultLangKey: "en",
+      defaultLangKey: "fr",
     },
   },
   plugins: [
@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-i18n`,
       options: {
-        langKeyDefault: "en",
-        langKeyForNull: "en",
+        langKeyDefault: "fr",
+        langKeyForNull: "fr",
         prefixDefault: false,
         useLangKeyLayout: false,
       },
