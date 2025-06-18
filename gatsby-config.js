@@ -42,7 +42,7 @@ module.exports = {
         background_color: `#f5f5f4`,
         theme_color: `#3f6212`,
         display: `standalone`,
-        icon: `src/images/chalet-printemps.jpeg`,
+        icon: `src/images/favicon.jpeg`,
       },
     },
     {
