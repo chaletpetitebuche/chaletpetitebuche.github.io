@@ -67,28 +67,8 @@ const Layout = ({ children, pageTitle, location }) => {
                   tabIndex={0}
                   className="menu dropdown-content mt-3 z-[1] p-3 shadow bg-base-100 rounded-box w-52"
                 >
-                  <li>
-                    <Link
-                      to={langKey === defaultLangKey ? "/" : `/${langKey}/`}
-                      className="py-3 text-base"
-                    >
-                      {t.nav.home}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to={
-                        langKey === defaultLangKey
-                          ? "/info/"
-                          : `/${langKey}/info/`
-                      }
-                      className="py-3 text-base"
-                    >
-                      {t.nav.guests}
-                    </Link>
-                  </li>
                   {/* Mobile-only theme and language controls */}
-                  <li className="lg:hidden mt-3 border-t pt-3">
+                  <li className="lg:hidden">
                     <div className="flex items-center justify-between">
                       <ThemeToggle />
                       <LanguageSelector location={location} />
