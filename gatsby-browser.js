@@ -8,8 +8,8 @@ export const onClientEntry = () => {
   // Skip this during SSR/build time and only run in browser
   if (typeof window === "undefined" || typeof navigator === "undefined") return;
 
-  // Only run on the initial page load (homepage)
-  if (window.location.pathname === "/") {
+  // Run on the homepage or info page
+  if (window.location.pathname === "/" || window.location.pathname === "/info/") {
     // Check localStorage first - only proceed with detection if no valid preference exists
     const savedPreference = localStorage.getItem("preferredLanguage");
 
@@ -20,7 +20,9 @@ export const onClientEntry = () => {
     ) {
       // Redirect to the appropriate language version if needed
       if (savedPreference === "fr") {
-        window.location.replace("/fr/");
+        const currentPath = window.location.pathname;
+        const frPath = currentPath === "/" ? "/fr/" : `/fr${currentPath}`;
+        window.location.replace(frPath);
       }
       return;
     }
@@ -46,7 +48,10 @@ export const onClientEntry = () => {
 
     // Redirect to the appropriate language version if needed
     if (preferredLang === "fr") {
-      window.location.replace("/fr/");
+      // Keep the same path structure but add the language prefix
+      const currentPath = window.location.pathname;
+      const frPath = currentPath === "/" ? "/fr/" : `/fr${currentPath}`;
+      window.location.replace(frPath);
     }
   }
 };
