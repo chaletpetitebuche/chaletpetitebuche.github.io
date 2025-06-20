@@ -125,7 +125,7 @@ export const translations = {
           "Please rinse off in the shower before using the spa to keep the water clean for everyone to enjoy.",
         item4:
           "Please respect the wildlife and natural surroundings. The forest floor is fragile, avoid walking outside of the paths. Enjoy picking — and eating — blueberries but please do not pick other plants.",
-        item4: "No open fires are allowed outside of the outdoor fireplace.",
+        item5: "No open fires are allowed outside of the outdoor fireplace.",
       },
       local: {
         title: "Local Recommendations",
