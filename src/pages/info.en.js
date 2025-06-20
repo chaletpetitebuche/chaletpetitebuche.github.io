@@ -216,15 +216,12 @@ const GuestsPage = ({ pageContext = {}, location }) => {
               </div>
 
               <div className="grid grid-cols-1 gap-8 mt-6">
-                <div className="card bg-base-200">
-                  <div className="card-body">
-                    <iframe
-                      src="https://www.google.com/maps/d/embed?mid=1p8kcUse6v7dvTW_gyzxz5CHho18wejQ&hl=fr&ehbc=2E312F"
-                      width="100%"
-                      height="480"
-                    ></iframe>
-                  </div>
-                </div>
+                <iframe
+                  className="card"
+                  src="https://www.google.com/maps/d/embed?mid=1p8kcUse6v7dvTW_gyzxz5CHho18wejQ&hl=fr&ehbc=2E312F"
+                  width="100%"
+                  height="480"
+                ></iframe>
               </div>
             </div>
           </div>
