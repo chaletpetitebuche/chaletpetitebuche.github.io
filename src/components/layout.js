@@ -129,7 +129,7 @@ const Layout = ({ children, pageTitle, location }) => {
 
       <main className="flex-grow">{children}</main>
 
-      <footer className="bg-neutral text-neutral-content py-8">
+      <footer className="bg-base-100 text-base-100-content py-8">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -147,7 +147,7 @@ const Layout = ({ children, pageTitle, location }) => {
                   href="https://www.instagram.com/chaletpetitebuche/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-accent"
+                  className="hover:text-accent underline mb-2"
                 >
                   Instagram
                 </a>
