@@ -151,6 +151,7 @@ const GuestsPage = ({ pageContext = {}, location }) => {
                 <li>{t.guests.rules.item2}</li>
                 <li>{t.guests.rules.item3}</li>
                 <li>{t.guests.rules.item4}</li>
+                <li>{t.guests.rules.item5}</li>
               </ul>
             </div>
           </div>
@@ -185,7 +186,7 @@ const GuestsPage = ({ pageContext = {}, location }) => {
                     </h3>
                     <p>
                       A small but well-stocked grocery store. You can also find
-                      wood for the firepit here.
+                      wood for the outdoor fireplace here.
                     </p>
                   </div>
                 </div>
