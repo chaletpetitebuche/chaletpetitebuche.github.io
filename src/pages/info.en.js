@@ -150,6 +150,7 @@ const GuestsPage = ({ pageContext = {}, location }) => {
                 <li>{t.guests.rules.item1}</li>
                 <li>{t.guests.rules.item2}</li>
                 <li>{t.guests.rules.item3}</li>
+                <li>{t.guests.rules.item4}</li>
               </ul>
             </div>
           </div>
@@ -164,20 +165,51 @@ const GuestsPage = ({ pageContext = {}, location }) => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="card bg-base-200">
                   <div className="card-body">
-                    <h3 className="card-title">Local Restaurant</h3>
+                    <h3 className="card-title">
+                      <a href="https://maps.app.goo.gl/S2RouiJQqCsNi3jU9">
+                        Microbrasserie Nouvelle France
+                      </a>
+                    </h3>
                     <p>
-                      A cozy dining spot just 10 minutes away, serving
-                      farm-to-table meals.
+                      A cozy dining spot just 5 minutes away with beers brewed
+                      on location.
                     </p>
                   </div>
                 </div>
                 <div className="card bg-base-200">
                   <div className="card-body">
-                    <h3 className="card-title">Grocery Store</h3>
+                    <h3 className="card-title">
+                      <a href="https://maps.app.goo.gl/LfmcnvP9AgkykHer8">
+                        Marché Tradition
+                      </a>
+                    </h3>
                     <p>
-                      A small but well-stocked grocery store about 15 minutes
-                      from the cabin.
+                      A small but well-stocked grocery store. You can also find
+                      wood for the firepit here.
                     </p>
+                  </div>
+                </div>
+                <div className="card bg-base-200">
+                  <div className="card-body">
+                    <h3 className="card-title">
+                      <a href="https://maps.app.goo.gl/kYWcAUXbWPSpmne86">
+                        Lac Sacacomie Municipal Quay
+                      </a>
+                    </h3>
+                    <p>
+                      For a picnic by the lake, enjoying the small beach or to
+                      launch a boat.
+                    </p>
+                  </div>
+                </div>
+                <div className="card bg-base-200">
+                  <div className="card-body">
+                    <h3 className="card-title">
+                      <a href="https://www.sepaq.com/rf/mas/">
+                        Mastigouche Wildlife Reserve
+                      </a>
+                    </h3>
+                    <p>Full of outdoors activities for the whole family.</p>
                   </div>
                 </div>
               </div>

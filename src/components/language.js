@@ -122,6 +122,8 @@ export const translations = {
           "No smoking inside the cabin. Use the outdoors ashtray located on the porch.",
         item2: "Quiet hours are from 10:00 PM to 7:00 AM.",
         item3:
+          "Please rinse off in the shower before using the spa to keep the water clean for everyone to enjoy.",
+        item4:
           "Please respect the wildlife and natural surroundings. The forest floor is fragile, avoid walking outside of the paths. Enjoy picking — and eating — blueberries but please do not pick other plants.",
       },
       local: {
@@ -222,6 +224,8 @@ export const translations = {
         item1: "Interdiction de fumer à l'intérieur du chalet.",
         item2: "Les heures de silence sont de 22h00 à 7h00.",
         item3:
+          "Veuillez vous rincer dans la douche avant d'utiliser le spa pour garder l'eau propre pour que tous puissent en profiter.",
+        item4:
           "Veuillez respecter la faune et l'environnement naturel. Le sol de la forêt est fragile; evitez de marcher hors des sentiers. Profitez de la cueillette de bleuets en saison, mais ne cueillez pas d'autres plantes ou fleurs.",
       },
       local: {

@@ -155,6 +155,7 @@ const GuestsPage = ({ location }) => {
                 <li>{t.guests.rules.item1}</li>
                 <li>{t.guests.rules.item2}</li>
                 <li>{t.guests.rules.item3}</li>
+                <li>{t.guests.rules.item4}</li>
               </ul>
             </div>
           </div>
@@ -169,19 +170,49 @@ const GuestsPage = ({ location }) => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="card bg-base-200">
                   <div className="card-body">
-                    <h3 className="card-title">Restaurant Local</h3>
+                    <h3 className="card-title">
+                      <a href="https://maps.app.goo.gl/S2RouiJQqCsNi3jU9">
+                        Microbrasserie Nouvelle France
+                      </a>
+                    </h3>
+                    <p>Une brasserie chaleureuse à seulement 5 minutes.</p>
+                  </div>
+                </div>
+                <div className="card bg-base-200">
+                  <div className="card-body">
+                    <h3 className="card-title">
+                      <a href="https://maps.app.goo.gl/LfmcnvP9AgkykHer8">
+                        Marché Tradition
+                      </a>
+                    </h3>
                     <p>
-                      Un restaurant chaleureux à seulement 10 minutes, servant
-                      des repas de la ferme à la table.
+                      Une petite épicerie bien approvisionnée. Vous pouvez aussi
+                      y acheter du bois pour le foyer.
                     </p>
                   </div>
                 </div>
                 <div className="card bg-base-200">
                   <div className="card-body">
-                    <h3 className="card-title">Épicerie</h3>
+                    <h3 className="card-title">
+                      <a href="https://maps.app.goo.gl/kYWcAUXbWPSpmne86">
+                        Quai Municipal du Lac Sacacomie
+                      </a>
+                    </h3>
                     <p>
-                      Une petite épicerie bien approvisionnée à environ 15
-                      minutes du chalet.
+                      Pour un pique-nique au bord du lac, profiter de la petite
+                      plage ou mettre une embarcation à l'eau.
+                    </p>
+                  </div>
+                </div>
+                <div className="card bg-base-200">
+                  <div className="card-body">
+                    <h3 className="card-title">
+                      <a href="https://www.sepaq.com/rf/mas/">
+                        Réserve Faunique Mastigouche
+                      </a>
+                    </h3>
+                    <p>
+                      Plusieurs activités en plein air pour toute la famille.
                     </p>
                   </div>
                 </div>
