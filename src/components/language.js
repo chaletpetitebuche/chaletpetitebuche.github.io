@@ -97,30 +97,32 @@ export const translations = {
     },
     guests: {
       title: "Guest Information",
-      welcome: "Welcome to La Petite Bûche!",
+      welcome: "Welcome to Chalet La Petite Bûche!",
       intro:
         "We're delighted you've chosen our cabin for your getaway. Here you'll find all the information you need for a comfortable and enjoyable stay.",
       checkin: {
         title: "Check-in & Check-out",
-        info: "Check-in: 3:00 PM | Check-out: 11:00 AM",
+        info: "Check-in: 4:00 PM | Check-out: 11:00 AM",
         process:
           "The cabin features a keyless entry system. We'll send you the access code prior to your arrival.",
       },
       emergency: {
-        title: "Emergency Contact",
+        title: "Contact",
         contact:
-          "For urgent matters, please call or text (555) 123-4567. For non-urgent questions, please use the Airbnb messaging system.",
+          "For questions, please use the Airbnb messaging system. In case of emergency, call 911.",
       },
       amenities: {
         title: "Cabin Amenities",
-        description:
-          "Our cabin is equipped with everything you need for a comfortable stay.",
+        description: `Our cabin is equipped with everything you need for a comfortable stay.
+          The water is from a well and is drinkable, but it can have a metallic taste. You can use the provided Brita filter or you may bring your own drinking water if you prefer.`,
       },
       rules: {
         title: "House Rules",
-        item1: "No smoking inside the cabin.",
-        item2: "Quiet hours are from 10:00 PM to 8:00 AM.",
-        item3: "Please respect the wildlife and natural surroundings.",
+        item1:
+          "No smoking inside the cabin. Use the outdoors ashtray located on the porch.",
+        item2: "Quiet hours are from 10:00 PM to 7:00 AM.",
+        item3:
+          "Please respect the wildlife and natural surroundings. The forest floor is fragile, avoid walking outside of the paths. Enjoy picking — and eating — blueberries but please do not pick other plants.",
       },
       local: {
         title: "Local Recommendations",
@@ -201,25 +203,26 @@ export const translations = {
         "Nous sommes ravis que vous ayez choisi notre chalet pour votre escapade. Vous trouverez ici toutes les informations nécessaires pour un séjour confortable et agréable.",
       checkin: {
         title: "Arrivée et Départ",
-        info: "Arrivée: 15h00 | Départ: 11h00",
+        info: "Arrivée: 16h00 | Départ: 11h00",
         process:
           "Le chalet dispose d'un système d'entrée sans clé. Nous vous enverrons le code d'accès avant votre arrivée.",
       },
       emergency: {
-        title: "Contact d'Urgence",
+        title: "Contact",
         contact:
-          "Pour les questions urgentes, veuillez appeler ou envoyer un SMS au (555) 123-4567. Pour les questions non urgentes, veuillez utiliser le système de messagerie Airbnb.",
+          "Pour les questions, veuillez utiliser le système de messagerie Airbnb. En cas d'urgence, appelez le 911.",
       },
       amenities: {
         title: "Commodités du Chalet",
         description:
-          "Notre chalet est équipé de tout ce dont vous avez besoin pour un séjour confortable.",
+          "Notre chalet est équipé de tout ce dont vous avez besoin pour un séjour confortable. L'eau vient d'un puit et est potable. Par contre, elle peut avoir un goût métallique. Vous pouvez utiliser le filtre Brita mis à votre disposition ou vous pouvez apporter votre propre eau pour boire.",
       },
       rules: {
         title: "Règles de la Maison",
         item1: "Interdiction de fumer à l'intérieur du chalet.",
-        item2: "Les heures de silence sont de 22h00 à 8h00.",
-        item3: "Veuillez respecter la faune et l'environnement naturel.",
+        item2: "Les heures de silence sont de 22h00 à 7h00.",
+        item3:
+          "Veuillez respecter la faune et l'environnement naturel. Le sol de la forêt est fragile; evitez de marcher hors des sentiers. Profitez de la cueillette de bleuets en saison, mais ne cueillez pas d'autres plantes ou fleurs.",
       },
       local: {
         title: "Recommandations Locales",

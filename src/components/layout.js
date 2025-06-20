@@ -22,7 +22,7 @@ const Layout = ({ children, pageTitle, location }) => {
   `);
 
   const { langs, defaultLangKey } = data.site.siteMetadata.languages;
-  const { langKey, langsMenu } = getLanguageInfo(
+  const { langKey } = getLanguageInfo(
     location || { pathname: "/" },
     langs,
     defaultLangKey
@@ -45,7 +45,7 @@ const Layout = ({ children, pageTitle, location }) => {
           <div className="navbar bg-base-100">
             <div className="navbar-start">
               <div className="dropdown">
-                <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                <button aria-label="Menu" className="btn btn-ghost lg:hidden">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -62,11 +62,8 @@ const Layout = ({ children, pageTitle, location }) => {
                     />
                   </svg>
                   <span className="sr-only">Menu</span>
-                </label>
-                <ul
-                  tabIndex={0}
-                  className="menu dropdown-content mt-3 z-[1] p-3 shadow bg-base-100 rounded-box w-52"
-                >
+                </button>
+                <ul className="menu dropdown-content mt-3 z-[1] p-3 shadow bg-base-100 rounded-box w-52">
                   {/* Mobile-only theme and language controls */}
                   <li className="lg:hidden">
                     <div className="flex items-center justify-between">
@@ -141,7 +138,7 @@ const Layout = ({ children, pageTitle, location }) => {
             </div>
             <div>
               <h3 className="text-lg font-bold mb-4">{t.footer.contact}</h3>
-              <p>{t.footer.email}: contact@chaletpetitebuche.com</p>
+              <p>{t.footer.email}: chaletpetitebuche@gmail.com</p>
             </div>
             <div>
               <h3 className="text-lg font-bold mb-4">{t.footer.follow}</h3>
