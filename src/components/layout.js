@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet";
 import { getLanguageInfo, translations } from "./language";
@@ -7,6 +7,8 @@ import LanguageSelector from "./language-selector";
 import ThemeToggle from "./theme-toggle";
 
 const Layout = ({ children, pageTitle, location }) => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -29,6 +31,10 @@ const Layout = ({ children, pageTitle, location }) => {
   );
   const t = translations[langKey];
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className="flex flex-col min-h-screen">
       <Helmet>
@@ -45,7 +51,11 @@ const Layout = ({ children, pageTitle, location }) => {
           <div className="navbar bg-base-100">
             <div className="navbar-start">
               <div className="dropdown">
-                <button aria-label="Menu" className="btn btn-ghost lg:hidden">
+                <button
+                  aria-label="Menu"
+                  onClick={toggleMenu}
+                  className="btn btn-ghost lg:hidden"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -63,7 +73,11 @@ const Layout = ({ children, pageTitle, location }) => {
                   </svg>
                   <span className="sr-only">Menu</span>
                 </button>
-                <ul className="menu dropdown-content mt-3 z-[1] p-3 shadow bg-base-100 rounded-box w-52">
+                <ul
+                  className={`menu dropdown-content mt-3 z-[1] p-3 shadow bg-base-100 rounded-box w-52 ${
+                    isMenuOpen ? "block" : "hidden"
+                  }`}
+                >
                   {/* Mobile-only theme and language controls */}
                   <li className="lg:hidden">
                     <div className="flex items-center justify-between">
@@ -80,30 +94,7 @@ const Layout = ({ children, pageTitle, location }) => {
                 {t.site.title}
               </Link>
             </div>
-            {/* <div className="navbar-center hidden lg:flex">
-              <ul className="menu menu-horizontal px-1">
-                <li>
-                  <Link
-                    to={langKey === defaultLangKey ? "/" : `/${langKey}/`}
-                    className="py-2 px-4 text-base"
-                  >
-                    {t.nav.home}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to={
-                      langKey === defaultLangKey
-                        ? "/info/"
-                        : `/${langKey}/info/`
-                    }
-                    className="py-2 px-4 text-base"
-                  >
-                    {t.nav.guests}
-                  </Link>
-                </li>
-              </ul>
-            </div> */}
+
             <div className="navbar-end">
               {/* Language selector - visible only on desktop */}
               <div className="hidden lg:block">
