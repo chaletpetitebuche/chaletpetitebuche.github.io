@@ -126,6 +126,8 @@ export const translations = {
         item4:
           "Please respect the wildlife and natural surroundings. The forest floor is fragile, avoid walking outside of the paths. Enjoy picking — and eating — blueberries but please do not pick other plants.",
         item5: "No open fires are allowed outside of the outdoor fireplace.",
+        item6:
+          "Do not throw away cooking grease in the plumbing. Dispose of it in the trash.",
       },
       local: {
         title: "Local Recommendations",
@@ -231,6 +233,8 @@ lendemain matin.`,
         item4:
           "Veuillez respecter la faune et l'environnement naturel. Le sol de la forêt est fragile; evitez de marcher hors des sentiers. Profitez de la cueillette de bleuets en saison, mais ne cueillez pas d'autres plantes ou fleurs.",
         item5: "Aucun feu à ciel ouvert n'est autorisé à l'extérieur du foyer.",
+        item6:
+          "Ne jetez pas de graisse de cuisson dans les éviers ou la toilette. Jetez-la à la poubelle.",
       },
       local: {
         title: "Recommandations Locales",

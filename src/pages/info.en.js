@@ -152,6 +152,7 @@ const GuestsPage = ({ pageContext = {}, location }) => {
                 <li>{t.guests.rules.item3}</li>
                 <li>{t.guests.rules.item4}</li>
                 <li>{t.guests.rules.item5}</li>
+                <li>{t.guests.rules.item6}</li>
               </ul>
             </div>
           </div>
