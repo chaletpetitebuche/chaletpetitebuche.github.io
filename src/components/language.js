@@ -118,16 +118,20 @@ export const translations = {
       },
       rules: {
         title: "House Rules",
-        item1:
+        smoking:
           "No smoking inside the cabin. Use the outdoors ashtray located on the porch.",
-        item2: `At all times, occupants must cease any outdoor activity that could generate noise from 11:00 p.m. until 8:00 a.m. the following morning.`,
-        item3:
+        silence: `At all times, occupants must cease any outdoor activity that could generate noise from 11:00 p.m. until 8:00 a.m. the following morning.`,
+        rince:
           "Please rinse off in the shower before using the spa to keep the water clean for everyone to enjoy.",
-        item4:
+        flora:
           "Please respect the wildlife and natural surroundings. The forest floor is fragile, avoid walking outside of the paths. Enjoy picking — and eating — blueberries but please do not pick other plants.",
-        item5: "No open fires are allowed outside of the outdoor fireplace.",
-        item6:
+        fire: "No open fires are allowed outside of the outdoor fireplace.",
+        grease:
           "Do not throw away cooking grease in the plumbing. Dispose of it in the trash.",
+        glass:
+          "Do not use glass cups in the spa. If you drop something in the spa, cleaning fees will apply.",
+        tents:
+          "Setting up tents, trailers, or other recreational vehicles on the property is not allowed.",
       },
       local: {
         title: "Local Recommendations",
@@ -224,17 +228,22 @@ export const translations = {
       },
       rules: {
         title: "Règles de la Maison",
-        item1: "Interdiction de fumer à l'intérieur du chalet.",
-        item2: `En tout temps, les occupants doivent cesser toute 
+        smoking:
+          "Interdiction de fumer à l'intérieur du chalet. Utilisez le cendrier extérieur situé sur la terrasse.",
+        silence: `En tout temps, les occupants doivent cesser toute 
 activité extérieure pouvant générer du bruit à partir de 23h00 jusqu’à 8h00 le 
 lendemain matin.`,
-        item3:
+        rince:
           "Veuillez vous rincer dans la douche avant d'utiliser le spa pour garder l'eau propre pour que tous puissent en profiter.",
-        item4:
-          "Veuillez respecter la faune et l'environnement naturel. Le sol de la forêt est fragile; evitez de marcher hors des sentiers. Profitez de la cueillette de bleuets en saison, mais ne cueillez pas d'autres plantes ou fleurs.",
-        item5: "Aucun feu à ciel ouvert n'est autorisé à l'extérieur du foyer.",
-        item6:
+        flora:
+          "Veuillez respecter la faune et l'environnement naturel. Le sol de la forêt est fragile; évitez de marcher hors des sentiers. Profitez de la cueillette de bleuets en saison, mais ne cueillez pas d'autres plantes ou fleurs.",
+        fire: "Feux d'artifices et feux à ciel ouvert interdits en tout temps (les feux le foyer extérieur sont permis)",
+        grease:
           "Ne jetez pas de graisse de cuisson dans les éviers ou la toilette. Jetez-la à la poubelle.",
+        glass:
+          "Ne pas utiliser de verre ou coupe en verre dans le spa. Si vous échappez quelque chose dans le spa des frais de nettoyage seront applicables.",
+        tents:
+          "Il est interdit d’installer une tente ou tente-roulotte ou autre véhicule récréatif sur le terrain.",
       },
       local: {
         title: "Recommandations Locales",

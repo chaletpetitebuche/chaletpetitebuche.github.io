@@ -3,9 +3,9 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import { translations } from "../components/language";
 
-const NotFoundEnPage = ({ location }) => {
-  // This is the English version of the 404 page
-  const langKey = "en";
+const NotFoundPage = ({ location }) => {
+  // For the 404 page, we'll default to French
+  const langKey = "fr";
   const t = translations[langKey];
 
   return (
@@ -15,7 +15,7 @@ const NotFoundEnPage = ({ location }) => {
         <p className="text-lg mb-6">
           The page you're looking for doesn't exist.
         </p>
-        <Link to="/en/" className="btn btn-primary">
+        <Link to="/" className="btn btn-primary">
           {t.nav.home}
         </Link>
       </div>
@@ -23,4 +23,4 @@ const NotFoundEnPage = ({ location }) => {
   );
 };
 
-export default NotFoundEnPage;
+export default NotFoundPage;

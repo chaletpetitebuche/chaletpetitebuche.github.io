@@ -24,6 +24,24 @@ const GuestsPage = ({ pageContext = {}, location }) => {
             </div>
           </div>
 
+          <div className="card bg-base-100 shadow-xl mb-12">
+            <div className="card-body">
+              <h2 className="card-title text-2xl text-primary">
+                {t.guests.rules.title}
+              </h2>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>{t.guests.rules.smoking}</li>
+                <li>{t.guests.rules.silence}</li>
+                <li>{t.guests.rules.rince}</li>
+                <li>{t.guests.rules.flora}</li>
+                <li>{t.guests.rules.fire}</li>
+                <li>{t.guests.rules.grease}</li>
+                <li>{t.guests.rules.glass}</li>
+                <li>{t.guests.rules.tents}</li>
+              </ul>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="card bg-base-100 shadow-xl">
               <div className="card-body">
@@ -138,22 +156,6 @@ const GuestsPage = ({ pageContext = {}, location }) => {
                   <span>{t.amenities.firepit}</span>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="card bg-base-100 shadow-xl mb-12">
-            <div className="card-body">
-              <h2 className="card-title text-2xl text-primary">
-                {t.guests.rules.title}
-              </h2>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>{t.guests.rules.item1}</li>
-                <li>{t.guests.rules.item2}</li>
-                <li>{t.guests.rules.item3}</li>
-                <li>{t.guests.rules.item4}</li>
-                <li>{t.guests.rules.item5}</li>
-                <li>{t.guests.rules.item6}</li>
-              </ul>
             </div>
           </div>
 

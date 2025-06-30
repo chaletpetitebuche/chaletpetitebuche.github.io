@@ -3,18 +3,17 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import { translations } from "../components/language";
 
-// This is the default 404 page (French)
 const NotFoundPage = ({ location }) => {
-  // French is now the default language
-  const langKey = "fr";
+  // For the 404 page, we'll default to English
+  const langKey = "en";
   const t = translations[langKey];
 
   return (
-    <Layout pageTitle="404: Page Non Trouvée" location={location}>
+    <Layout pageTitle="404: Not Found" location={location}>
       <div className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-4xl font-bold mb-4">404: Page Non Trouvée</h1>
+        <h1 className="text-4xl font-bold mb-4">404: Not Found</h1>
         <p className="text-lg mb-6">
-          La page que vous recherchez n'existe pas.
+          The page you're looking for doesn't exist.
         </p>
         <Link to="/" className="btn btn-primary">
           {t.nav.home}
