@@ -30,14 +30,15 @@ const GuestsPage = ({ pageContext = {}, location }) => {
                 {t.guests.rules.title}
               </h2>
               <ul className="list-disc pl-6 space-y-2">
+                <li>{t.guests.rules.fire}</li>
                 <li>{t.guests.rules.smoking}</li>
                 <li>{t.guests.rules.silence}</li>
                 <li>{t.guests.rules.rince}</li>
-                <li>{t.guests.rules.flora}</li>
-                <li>{t.guests.rules.fire}</li>
-                <li>{t.guests.rules.grease}</li>
                 <li>{t.guests.rules.glass}</li>
+                <li>{t.guests.rules.grease}</li>
+                <li>{t.guests.rules.flora}</li>
                 <li>{t.guests.rules.tents}</li>
+                <li>{t.guests.rules.pets}</li>
               </ul>
             </div>
           </div>

@@ -132,6 +132,7 @@ export const translations = {
           "Do not use glass cups in the spa. If you drop something in the spa, cleaning fees will apply.",
         tents:
           "Setting up tents, trailers, or other recreational vehicles on the property is not allowed.",
+        pets: "Pets are not allowed on the grounds or in the cabin.",
       },
       local: {
         title: "Local Recommendations",
@@ -244,6 +245,7 @@ lendemain matin.`,
           "Ne pas utiliser de verre ou coupe en verre dans le spa. Si vous échappez quelque chose dans le spa des frais de nettoyage seront applicables.",
         tents:
           "Il est interdit d’installer une tente ou tente-roulotte ou autre véhicule récréatif sur le terrain.",
+        pets: "Les animaux de compagnie ne sont pas admis sur le terrain ni dans le chalet.",
       },
       local: {
         title: "Recommandations Locales",
