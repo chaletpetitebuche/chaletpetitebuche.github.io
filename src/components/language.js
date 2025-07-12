@@ -126,6 +126,7 @@ export const translations = {
         flora:
           "Please respect the wildlife and natural surroundings. The forest floor is fragile, avoid walking outside of the paths. Enjoy picking — and eating — blueberries but please do not pick other plants.",
         fire: "No open fires are allowed outside of the outdoor fireplace.",
+        dishes: "Please wash and put away all dishes before leaving the cabin.",
         grease:
           "Do not throw away cooking grease in the plumbing. Dispose of it in the trash.",
         glass:
@@ -239,6 +240,8 @@ lendemain matin.`,
         flora:
           "Veuillez respecter la faune et l'environnement naturel. Le sol de la forêt est fragile; évitez de marcher hors des sentiers. Profitez de la cueillette de bleuets en saison, mais ne cueillez pas d'autres plantes ou fleurs.",
         fire: "Feux d'artifices et feux à ciel ouvert interdits en tout temps (les feux le foyer extérieur sont permis)",
+        dishes:
+          "Bien nettoyer la vaisselle et la ranger dans avant de quitter le chalet.",
         grease:
           "Ne jetez pas de graisse de cuisson dans les éviers ou la toilette. Jetez-la à la poubelle.",
         glass:
