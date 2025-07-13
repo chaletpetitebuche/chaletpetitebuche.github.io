@@ -241,7 +241,7 @@ lendemain matin.`,
           "Veuillez respecter la faune et l'environnement naturel. Le sol de la forêt est fragile; évitez de marcher hors des sentiers. Profitez de la cueillette de bleuets en saison, mais ne cueillez pas d'autres plantes ou fleurs.",
         fire: "Feux d'artifices et feux à ciel ouvert interdits en tout temps (les feux le foyer extérieur sont permis)",
         dishes:
-          "Bien nettoyer la vaisselle et la ranger dans avant de quitter le chalet.",
+          "Bien nettoyer la vaisselle et la ranger avant de quitter le chalet.",
         grease:
           "Ne jetez pas de graisse de cuisson dans les éviers ou la toilette. Jetez-la à la poubelle.",
         glass:
