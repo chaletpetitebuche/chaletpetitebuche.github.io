@@ -120,20 +120,22 @@ export const translations = {
         title: "House Rules",
         smoking:
           "No smoking inside the cabin. Use the outdoors ashtray located on the porch.",
-        silence: `At all times, occupants must cease any outdoor activity that could generate noise from 11:00 p.m. until 8:00 a.m. the following morning.`,
+        silence: `No outside noise between 11:00pm and 8:00 am.`,
         rince:
-          "Please rinse off in the shower before using the spa to keep the water clean for everyone to enjoy.",
+          "Please rinse off in the shower before using the spa to keep the water clean for everyone.",
         flora:
           "Please respect the wildlife and natural surroundings. The forest floor is fragile, avoid walking outside of the paths. Enjoy picking — and eating — blueberries but please do not pick other plants.",
-        fire: "No open fires are allowed outside of the outdoor fireplace.",
-        dishes: "Please wash and put away all dishes before leaving the cabin.",
+        fire: "Fireworks or open fires are prohibited at all times.",
+        dishes: "Please wash and put away all dishes.",
         grease:
-          "Do not throw away cooking grease in the plumbing. Dispose of it in the trash.",
-        glass:
-          "Do not use glass cups in the spa. If you drop something in the spa, cleaning fees will apply.",
+          "Do not pour cooking grease in the sink or toilet. Dispose of it in the trash.",
+        glass: "Please use plastic glasses in the spa.",
         tents:
           "Setting up tents, trailers, or other recreational vehicles on the property is not allowed.",
         pets: "Pets are not allowed on the grounds or in the cabin.",
+        trash:
+          "Bring the trash to the bins located at the corner of chemin des Bleuets and chemin Marceau.",
+        additional: "Before you leave...",
       },
       local: {
         title: "Local Recommendations",
@@ -232,23 +234,22 @@ export const translations = {
         title: "Règles de la Maison",
         smoking:
           "Interdiction de fumer à l'intérieur du chalet. Utilisez le cendrier extérieur situé sur la terrasse.",
-        silence: `En tout temps, les occupants doivent cesser toute 
-activité extérieure pouvant générer du bruit à partir de 23h00 jusqu’à 8h00 le 
-lendemain matin.`,
+        silence: `Merci de respecter la quiétude du voisinage en évitant le bruit entre 23h et 8h.`,
         rince:
-          "Veuillez vous rincer dans la douche avant d'utiliser le spa pour garder l'eau propre pour que tous puissent en profiter.",
+          "Veuillez vous rincer dans la douche avant d'utiliser le spa afin de garder l'eau propre.",
         flora:
           "Veuillez respecter la faune et l'environnement naturel. Le sol de la forêt est fragile; évitez de marcher hors des sentiers. Profitez de la cueillette de bleuets en saison, mais ne cueillez pas d'autres plantes ou fleurs.",
-        fire: "Feux d'artifices et feux à ciel ouvert interdits en tout temps (les feux le foyer extérieur sont permis)",
-        dishes:
-          "Bien nettoyer la vaisselle et la ranger avant de quitter le chalet.",
+        fire: "Feux d'artifices et feux à ciel ouvert interdits en tout temps.",
+        dishes: "Bien nettoyer la vaisselle et la ranger.",
         grease:
-          "Ne jetez pas de graisse de cuisson dans les éviers ou la toilette. Jetez-la à la poubelle.",
-        glass:
-          "Ne pas utiliser de verre ou coupe en verre dans le spa. Si vous échappez quelque chose dans le spa des frais de nettoyage seront applicables.",
+          "Ne pas verser de graisse de cuisson dans les éviers ou la toilette. Jetez-la à la poubelle.",
+        glass: "Merci d'utiliser des verres de plastique dans le spa.",
         tents:
           "Il est interdit d’installer une tente ou tente-roulotte ou autre véhicule récréatif sur le terrain.",
         pets: "Les animaux de compagnie ne sont pas admis sur le terrain ni dans le chalet.",
+        trash:
+          "Apporter les déchets dans les bacs situés au coin du chemin des Bleuets et du chemin Marceau.",
+        additional: "Avant de partir...",
       },
       local: {
         title: "Recommandations Locales",

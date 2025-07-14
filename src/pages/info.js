@@ -36,11 +36,17 @@ const GuestsPage = ({ location }) => {
                 <li>{t.guests.rules.silence}</li>
                 <li>{t.guests.rules.rince}</li>
                 <li>{t.guests.rules.glass}</li>
-                <li>{t.guests.rules.dishes}</li>
                 <li>{t.guests.rules.grease}</li>
                 <li>{t.guests.rules.flora}</li>
                 <li>{t.guests.rules.tents}</li>
                 <li>{t.guests.rules.pets}</li>
+              </ul>
+              <h3 className="text-lg font-bold mt-4">
+                {t.guests.rules.additional}
+              </h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>{t.guests.rules.dishes}</li>
+                <li>{t.guests.rules.trash}</li>
               </ul>
             </div>
           </div>
